@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run IP Check
-        uses: dprakash2101/hardcoded-ip-check@v1.0.0 
+        uses: dprakash2101/hardcoded-ip-check@v0.0.1
         with:
           directories: 'src, app, config'  # Specify directories to check
