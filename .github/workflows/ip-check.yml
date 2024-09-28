@@ -1,0 +1,20 @@
+name: Check for Hardcoded IPs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  check-ips:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run IP Check
+        uses: dprakash2101/hardcoded-ip-check@main  # Uses the latest commit on the main branch
+        with:
+          directories: 'src, app, config'  # Specify directories to check
