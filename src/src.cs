@@ -6,7 +6,7 @@ namespace SampleApp
     {
         static void Main(string[] args)
         {
-            string apiUrl = "http://192.168.0.1/api";  // Hardcoded IP
+            string apiUrl = "https://jsonplaceholder.typicode.com/todos/1";  // Hardcoded IP
             Console.WriteLine(apiUrl);
         }
     }
