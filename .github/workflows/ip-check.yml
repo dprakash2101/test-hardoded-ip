@@ -12,9 +12,9 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Run IP Check
-        uses: dprakash2101/hardcoded-ip-check@main  # Uses the latest commit on the main branch
+        uses: dprakash2101/hardcoded-ip-check@main  # Ensure the repository name is correct
         with:
           directories: 'src, app, config'  # Specify directories to check
