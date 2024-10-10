@@ -1,13 +1,7 @@
-using System;
-
-namespace SampleApp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string apiUrl = "https://jsonplaceholder.typicode.com/todos/1";  // Hardcoded IP
-            Console.WriteLine(apiUrl);
-        }
+// Example C# file
+class Example {
+    static void Main() {
+        string ipAddress = "192.168.1.1"; // Hardcoded IP address
+        Console.WriteLine(ipAddress);
     }
 }
