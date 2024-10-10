@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run IP Check
-        uses: dprakash2101/hardcoded_ip_check@feature  # Updated to the latest version
+        uses: dprakash2101/hardcoded_ip_check@feature   # Updated to the latest version
         with:
           directories: 'src,app,config'  # Specify directories to check
           extensions: '.py'  # Check only .py files
