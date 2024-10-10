@@ -18,7 +18,6 @@ jobs:
         uses: dprakash2101/hardcoded_ip_check@feature  # Updated to the latest version
         with:
           directories: 'src,app,config'  # Specify directories to check
-          extensions: '.py'  # Optional: Specify file extensions
-          
-          combine_extensions: 'false'  # Optional: Specify whether to combine with default extensions
+          extensions: '.py'  # Check only .py files
+          combine_extensions: 'false'  # Do not combine with default extensions
 
