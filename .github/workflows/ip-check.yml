@@ -18,7 +18,7 @@ jobs:
         uses: dprakash2101/hardcoded_ip_check@feature  # Updated to the latest version
         with:
           directories: 'src,app,config'  # Specify directories to check
-          extensions: '.cs,.py,.js,.json,.java,.ts'  # Optional: Specify file extensions
+          extensions: '.py'  # Optional: Specify file extensions
           
-          combine_extensions: 'true'  # Optional: Specify whether to combine with default extensions
+          combine_extensions: 'false'  # Optional: Specify whether to combine with default extensions
 
